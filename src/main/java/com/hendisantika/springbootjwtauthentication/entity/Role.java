@@ -1,6 +1,8 @@
 package com.hendisantika.springbootjwtauthentication.entity;
 
-import lombok.*;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
 import org.hibernate.annotations.NaturalId;
 
 import javax.persistence.*;
@@ -20,8 +22,8 @@ import javax.persistence.*;
 @Data
 @ToString
 @EqualsAndHashCode
-@NoArgsConstructor
-@AllArgsConstructor
+//@NoArgsConstructor
+//@AllArgsConstructor
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

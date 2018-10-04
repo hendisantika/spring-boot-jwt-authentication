@@ -1,9 +1,7 @@
 package com.hendisantika.springbootjwtauthentication.entity;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
 import org.hibernate.annotations.NaturalId;
 
 import javax.persistence.*;
@@ -33,8 +31,8 @@ import java.util.Set;
         })
 })
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
+//@AllArgsConstructor
+//@NoArgsConstructor
 @EqualsAndHashCode
 public class User {
     @Id
